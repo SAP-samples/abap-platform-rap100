@@ -123,7 +123,7 @@ However, you can perform this exercise already after _Exercise 1_ if you want to
 | [Exercise 11: Integrate an SAP Fiori App into the ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-integrate-app-into-flp.html) | -- |
 
    
-## ⏺️Recordings
+## 🔁Recordings
 [^Top of page](#)
 
 Watch the replay of the virtual workshop on RAP held SAP TechEd in 2022. It contains a compact introduction to RAP and a demonstration of the exercises 1 to 7.
