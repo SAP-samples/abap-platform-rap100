@@ -142,7 +142,7 @@ No known issues.
  
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
-## ℹ️About the ABAP RESTful Application Programming Model
+## About the ABAP RESTful Application Programming Model
 [^Top of page](#)
 
 > The **ABAP RESTful Application Programming Model (RAP)** is at the heart of the ABAP Cloud development model (ABAP Cloud) for implementing transactional scenarios.
@@ -164,7 +164,7 @@ The illustration below shows the high-level end-to-end development stack when wo
 
 </details>
 
-## ℹ️Further Information
+## Further Information
 [^Top of page](#)
 
 You can find further information on the ABAP RESTful Application Programming Model (RAP) here:
