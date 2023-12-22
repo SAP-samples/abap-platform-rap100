@@ -169,12 +169,9 @@ The illustration below shows the high-level end-to-end development stack when wo
 
 You can find further information on the ABAP RESTful Application Programming Model (RAP) here:
  - [State-of-the-Art ABAP Development with RAP](https://community.sap.com/topics/abap/rap) | SAP Community page   
- - [Modernization with RAP](https://blogs.sap.com/2021/10/18/modernization-with-rap/)
- - Most frequently asked questions: [RAP FAQ](https://blogs.sap.com/2020/10/16/abap-restful-application-programming-model-faq/) 
- - Free openSAP course [Building Apps with the ABAP RESTful Application Programming Model](https://community.sap.com/topics/btp-abap-environment/rap-opensap) 
- - [RAP100 Tutorials Mission on SAP Developers Center](https://developers.sap.com/mission.sap-fiori-abap-rap100.html)
- - SAP Fiori: [Develop and Run a Fiori Application with SAP Business Application Studio (optional)](https://developers.sap.com/tutorials/abap-environment-deploy-cf-production.html) 
-
+ - [Modernization with RAP](https://blogs.sap.com/2021/10/18/modernization-with-rap/) (_Blog post_)   
+ - Most frequently asked questions: [ABAP Cloud FAQ](https://community.sap.com/topics/abap/abap-cloud-faq) | [RAP FAQ](https://blogs.sap.com/2020/10/16/abap-restful-application-programming-model-faq/)    
+ - [RAP100 Tutorials Mission on SAP Developers Center](https://developers.sap.com/mission.sap-fiori-abap-rap100.html) | SAP Developers' Center
 
 <!--
 ## Contributing
