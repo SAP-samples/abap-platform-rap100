@@ -114,8 +114,8 @@ The exercises below are based on the exercise 1 to 5 from the _Beginner Level_ s
 | [Exercise 9: External API-based Access to the RAP BO with EML](exercises/ex9/readme.md) | -- |
 
 #### Additional Exercises: 
-The following exercise is based on the Exercise 1-9 from the _Beginner_ and _Intermediate Level_ sections.   
-However, you can perform this exercise already after _Exercise 1_ if you want to test the resut of the follow-up exercises directly in the actual proper SAP Fiori elements-based _Travel_ app instead of using the ADT preview.
+The following exercises are based on the Exercise 1-9 from the _Beginner_ and _Intermediate Level_ sections.   
+However, you can perform these exercises in the given order already after _Exercise 1_ if you want to test the result of the following exercises directly in the real SAP Fiori elements-based _Travel_ app instead of using the ADT preview.
 
 | Exercises | -- |
 | ------------- |  -- |
