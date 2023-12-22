@@ -97,24 +97,24 @@ Follow these steps to build an OData service on top of a draft-enabled RAP Busin
 | Exercises | -- |
 | ------------- |  -- |
 | [Getting Started](exercises/ex0/readme.md) | -- |
-| [Exercise 1: Create Database Table and Generate UI Service](exercises/ex1/readme.md) | -- |
-| [Exercise 2: Enhance the BO Data Model and Enable OData Streams](exercises/ex2/readme.md) | -- |
-| [Exercise 3: Enhance the BO Behavior – Early Numbering](exercises/ex3/readme.md) | -- |
-| [Exercise 4: Enhance the BO Behavior – Determinations](exercises/ex4/readme.md) | -- |
-| [Exercise 5: Enhance the BO Behavior – Validations](exercises/ex5/readme.md) | -- |
+| [Exercise 1: Create Database Table and Generate UI Service](exercises/ex01/README.md) | -- |
+| [Exercise 2: Enhance the BO Data Model and Enable OData Streams](exercises/ex02/README.md) | -- |
+| [Exercise 3: Enhance the BO Behavior – Early Numbering](exercises/ex03/README.md) | -- |
+| [Exercise 4: Enhance the BO Behavior – Determinations](exercises/ex04/README.md) | -- |
+| [Exercise 5: Enhance the BO Behavior – Validations](exercises/ex05/README.md) | -- |
 
 #### Intermediate Level
 The exercises below are based on the exercise 1 to 5 from the _Beginner Level_ section.
 
 | Exercises | -- |
 | ------------- |  -- |
-| [Exercise 6: Enhance the BO Behavior – Actions](exercises/ex6/readme.md) | -- |
-| [Exercise 7: Enhance the BO Behavior – Dynamic Feature Control](exercises/ex7/readme.md) | -- |
-| [Exercise 8: Write an ABAP Unit Test for the RAP BO](exercises/ex8/readme.md) | -- |
-| [Exercise 9: External API-based Access to the RAP BO with EML](exercises/ex9/readme.md) | -- |
+| [Exercise 6: Enhance the BO Behavior – Actions](exercises/ex6/README.md) | -- |
+| [Exercise 7: Enhance the BO Behavior – Dynamic Feature Control](exercises/ex07/README.md) | -- |
+| [Exercise 8: Write an ABAP Unit Test for the RAP BO](exercises/ex08/README.md) | -- |
+| [Exercise 9: External API-based Access to the RAP BO with EML](exercises/ex09/README.md) | -- |
 
 #### Additional Exercises: 
-The following exercises are based on the Exercise 1-9 from the _Beginner_ and _Intermediate Level_ sections.   
+The following exercises are based on the Exercises 1-9 from the _Beginner_ and _Intermediate Level_ sections.   
 However, you can perform these exercises in the given order already after _Exercise 1_ if you want to test the result of the following exercises directly in the real SAP Fiori elements-based _Travel_ app instead of using the ADT preview.
 
 | Exercises | -- |
@@ -134,7 +134,7 @@ Watch the replay of the virtual workshop on RAP held SAP TechEd in 2022. It cont
 ## 📩Download and Installation
 -->
 
-## Known Issues
+## ⚠️Known Issues
 No known issues. 
 
 ## 🆘How to obtain support
@@ -142,7 +142,7 @@ No known issues.
  
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
-## About the ABAP RESTful Application Programming Model
+## ℹ️About the ABAP RESTful Application Programming Model
 [^Top of page](#)
 
 > The **ABAP RESTful Application Programming Model (RAP)** is at the heart of the ABAP Cloud development model (ABAP Cloud) for implementing transactional scenarios.
@@ -164,7 +164,7 @@ The illustration below shows the high-level end-to-end development stack when wo
 
 </details>
 
-## Further Information
+## ℹ️Further Information
 [^Top of page](#)
 
 You can find further information on the ABAP RESTful Application Programming Model (RAP) here:
