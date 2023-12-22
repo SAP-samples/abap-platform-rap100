@@ -96,7 +96,7 @@ Follow these steps to build an OData service on top of a draft-enabled RAP Busin
 
 | Exercises | -- |
 | ------------- |  -- |
-| [Getting Started](exercises/ex0/readme.md) | -- |
+| [Getting Started](exercises/ex0/README.md) | -- |
 | [Exercise 1: Create Database Table and Generate UI Service](exercises/ex01/README.md) | -- |
 | [Exercise 2: Enhance the BO Data Model and Enable OData Streams](exercises/ex02/README.md) | -- |
 | [Exercise 3: Enhance the BO Behavior – Early Numbering](exercises/ex03/README.md) | -- |
