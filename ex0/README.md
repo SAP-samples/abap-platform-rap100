@@ -1,10 +1,6 @@
 [Home - RAP100](../../#exercises)
 
-# Exercise 0: Getting Started
-
-[Home - RAP100](../../#exercises)
-
-# Exercise 0: Getting Started
+# Getting Started
 
 ## Introduction
 
