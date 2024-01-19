@@ -3,7 +3,7 @@
 # Exercise 2: Enhance the BO Data Model and Enable OData Streams
 
 ## Introduction
-In the previous exercise, you've created a database table for storing _Travel_ data and generated your UI service - comprising the business object (BO) entity _Travel_ - on top of it (see [Exercise 1](../ex01/readme.md)).
+In the previous exercise, you've created a database table for storing _Travel_ data and generated your UI service - comprising the business object (BO) entity _Travel_ - on top of it (see [Exercise 1](../ex01/README.md)).
 
 In this exercise, you will enhance the base BO data model as well as the projected BO data model and its metadata extension, and test the enhanced Fiori elements _Travel_ app. These enhancements will include the definition of new associations, elements, view annotations, and element annotations. Also, you will enable the handling of large objects (aka OData streams) in your Fiori elements based app. 
 
@@ -314,7 +314,7 @@ Now that you've...
 - added UI annotations to the metadata extension, and 
 - checked the preview,
 
-you can continue with the next exercise – **[Exercise 3: Enhance the BO Behavior – Early Numbering](../ex03/readme.md)**
+you can continue with the next exercise – **[Exercise 3: Enhance the BO Behavior – Early Numbering](../ex03/README.md)**
 
 ---
 
