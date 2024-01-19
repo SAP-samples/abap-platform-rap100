@@ -15,7 +15,6 @@ The enablement of OData streams will give end-users the option to upload and dow
 - [2.4 - Adjust the UI semantics in the Metadata Extension](#exercise-24-adjust-the-ui-semantics-in-the-metadata-extension)
 - [2.5 - Preview and Test the Enhanced Fiori elements App](#exercise-25-preview-and-test-the-enhanced-travel-app)
 - [Summary](#summary)
-- [Appendix](#appendix) 
 
 
 > **Reminder**: Do not forget to replace the suffix placeholder **`###`** with your choosen or assigned group ID in the exercise steps below. 
