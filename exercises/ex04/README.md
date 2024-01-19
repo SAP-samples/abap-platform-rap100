@@ -12,7 +12,6 @@ In the present exercise, you will  define and implement a determination, `setSta
 - [4.2 - Implement the Determination `setStatusToOpen`](#exercise-42-implement-the-determination-setstatustoopen)
 - [4.3 - Preview and Test the Enhanced Travel App](#exercise-43-preview-and-test-the-enhanced-travel-app)
 - [Summary](#summary)  
-- [Appendix](#appendix)
 
 
 > **Reminder**: Do not forget to replace the suffix placeholder **`###`** with your choosen or assigned group ID in the exercise steps below. 
