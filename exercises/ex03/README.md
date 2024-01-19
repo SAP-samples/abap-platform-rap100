@@ -13,7 +13,6 @@ A number range object will be used to determine the unique travel identifiers.
 - [3.2 - Implement the Internal Early Numbering](#exercise-32-implement-the-internal-early-numbering)
 - [3.3 - Preview and Test the Enhanced Travel App](#exercise-33-preview-and-test-the-enhanced-travel-app)
 - [Summary](#summary)  
-- [Appendix](#appendix)  
 
 > **Reminder**: Do not forget to replace the suffix placeholder **`###`** with your choosen or assigned group ID in the exercise steps below. 
 
@@ -282,6 +281,7 @@ you can continue with the next exercise – **[Exercise 4: Enhance the BO Behavi
 
 ---
 
+<!--
 ## Appendix
 [^Top of page](#)
 
@@ -289,3 +289,5 @@ Find the source code for the behavior definition and behavior implementation cla
 
 - ![document](images/doc.png) [CDS BDEF ZRAP100_R_TRAVELTP_###](sources/EX3_BDEF_ZRAP100_R_TRAVELTP.txt)
 - ![document](images/doc.png) [Class ZRAP100_BP_TRAVELTP_###](sources/EX3_CLASS_ZRAP100_BP_TRAVELTP.txt)
+-->
+
