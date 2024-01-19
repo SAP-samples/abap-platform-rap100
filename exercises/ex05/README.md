@@ -19,7 +19,6 @@ In the present exercise, you're going to define and implement two back-end valid
 - [5.3 - Implement the Validation `validateDates`](#exercise-53-implement-the-validation-validatedates)
 - [5.4 - Preview and Test the enhanced Travel App](#exercise-54-preview-and-test-the-enhanced-travel-app)
 - [Summary](#summary)  
-- [Appendix](#appendix)
 
 > **Reminder**: Do not forget to replace the suffix placeholder **`###`** with your choosen or assigned group ID in the exercise steps below. 
 
