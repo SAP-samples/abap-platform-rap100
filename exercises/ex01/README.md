@@ -14,7 +14,6 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
 - [1.4 - Generate the transactional UI services](#exercise-14-generate-the-transactional-ui-service)
 - [1.5 - Publish and Preview the Travel App](#exercise-15-publish-and-preview-the-travel-app)
 - [Summary](#summary)
-- [Appendix](#appendix)
 
 
 > **Reminder:**   
