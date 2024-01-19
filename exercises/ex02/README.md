@@ -318,6 +318,7 @@ you can continue with the next exercise – **[Exercise 3: Enhance the BO Behavi
 
 ---
 
+<!--
 ## Appendix
 [^Top of page](#)
 
@@ -326,3 +327,4 @@ Find the source code for the base BO view, the projected BO view (aka BO project
 - ![document](images/doc.png) [CDS view ZRAP100_R_TRAVELTP_###](sources/EX2_DDLS_ZRAP100_R_TRAVELTP.txt)
 - ![document](images/doc.png) [CDS projection view ZRAP100_C_TRAVELTP_###](sources/EX2_DDLS_ZRAP100_C_TRAVELTP.txt)
 - ![document](images/doc.png) [CDS metadata extension ZRAP100_C_TRAVELTP_###](sources/EX2_DDLX_ZRAP100_C_TRAVELTP.txt)
+-->
