@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-rap100)](https://api.reuse.software/info/github.com/SAP-samples/abap-platform-rap100)
+
 <!--
 # SAP-samples/repository-template
 This default template for SAP Samples repositories includes files for README, LICENSE, and .reuse/dep5. All repositories on github.com/SAP-samples will be created based on this template.
