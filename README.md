@@ -124,7 +124,7 @@ However, you can perform these exercises in the given order already after _Exerc
 | Exercises | -- |
 | ------------- |  -- |
 | [Exercise 10: Create an SAP Fiori elements App and Deploy it to SAP BTP, ABAP Environment with SAP Business Application Studio](https://developers.sap.com/tutorials/abap-environment-deploy-fiori-elements-ui.html) | -- |
-| [Exercise 11: Integrate an SAP Fiori App into the ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-integrate-app-into-flp.html) | -- |
+| [Exercise 11: Integrate an SAP Fiori App into the ABAP Fiori Launchpad (_license reuquired_](https://developers.sap.com/tutorials/abap-environment-integrate-app-into-flp.html) | -- |
 
    
 ## 🔁Recordings
