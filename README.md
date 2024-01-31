@@ -36,7 +36,7 @@ This repository contains the material for the hands-on session **RAP100 - Buildi
 - [Recordings](#recordings)
 - [Known Issues](#known-issues)
 - [How to obtain support](#how-to-obtain-support)
-- [About the ABAP RESTful Application Programming Model (RAP)](#about-the-abap-restful-application-programming-Model)
+- [About the ABAP RESTful Application Programming Model (RAP)](#about-the-abap-restful-application-programming-model)
 - [Further Information](#further-information)
 
 ## 📋Requirements for attending this workshop 
@@ -124,7 +124,7 @@ However, you can perform these exercises in the given order already after _Exerc
 | Exercises | -- |
 | ------------- |  -- |
 | [Exercise 10: Create an SAP Fiori elements App and Deploy it to SAP BTP, ABAP Environment with SAP Business Application Studio](https://developers.sap.com/tutorials/abap-environment-deploy-fiori-elements-ui.html) | -- |
-| [Exercise 11: Integrate an SAP Fiori App into the ABAP Fiori Launchpad (_license required_)](https://developers.sap.com/tutorials/abap-environment-integrate-app-into-flp.html) | -- |
+| [Exercise 11: Integrate an SAP Fiori App into the ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-integrate-app-into-flp.html) (_license required_)| -- |
 
    
 ## 🔁Recordings
@@ -138,7 +138,7 @@ Watch the replay of the virtual workshop on RAP held SAP TechEd in 2022. It cont
 ## 📩Download and Installation
 -->
 
-## ⚠️Known Issues
+## ⚠Known Issues
 No known issues. 
 
 ## 🆘How to obtain support
