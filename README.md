@@ -114,7 +114,7 @@ The exercises below are based on the exercise 1 to 5 from the _Beginner Level_ s
 
 | Exercises | -- |
 | ------------- |  -- |
-| [Exercise 6: Enhance the BO Behavior – Actions](exercises/ex6/README.md) | -- |
+| [Exercise 6: Enhance the BO Behavior – Actions](exercises/ex06/README.md) | -- |
 | [Exercise 7: Enhance the BO Behavior – Dynamic Feature Control](exercises/ex07/README.md) | -- |
 | [Exercise 8: Write an ABAP Unit Test for the RAP BO](exercises/ex08/README.md) | -- |
 | [Exercise 9: External API-based Access to the RAP BO with EML](exercises/ex09/README.md) | -- |
