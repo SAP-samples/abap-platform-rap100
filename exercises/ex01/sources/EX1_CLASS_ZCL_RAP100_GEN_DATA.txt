@@ -1,3 +1,4 @@
+"! This class is used to fill travel data into the table zrap100_atrav###
 CLASS zcl_rap100_gen_data_### DEFINITION
  PUBLIC
   FINAL
