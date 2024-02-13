@@ -133,16 +133,20 @@ ABAP Unit test methods: **`<test method>()`** represents each unit test method f
 
    Your source code should now look like:
    
-   ![Test Class](images/testclass03.png) 
+   ![Test Class](images/testclass03.png)
    
-    **Short explanation**:
+    <details>
+      <summary>ℹ️ Brief Explanation - Click to expand!</summary>
+
       - Various static attributes for the test doubles and the mock data  
-        -	**`cds_test_environment`**: The reference object for the CDS TDF (**`if_cds_test_environment`**) which is used to provide test doubles for the _travel_ CDS entity of the base BO view. The CDS test doubles will be used for _read_ operations.  
-        -	**`sql_test_environment`**: The reference object for the ABAP SQL TDF (**`if_osql_test_environment`**) is used for stubing the additional needed database tables. The database test doubles will be used for _write_ operations.          
+      -	**`cds_test_environment`**: The reference object for the CDS TDF (**`if_cds_test_environment`**) which is used to provide test doubles for the _travel_ CDS entity of the base BO view. The CDS test doubles will be used for _read_ operations.  
+      -	**`sql_test_environment`**: The reference object for the ABAP SQL TDF (**`if_osql_test_environment`**) is used for stubing the additional needed database tables. The database test doubles will be used for _write_ operations.          
       - The ABAP unit framework standard special methods of the test configuration are specified: **`setup`**, **`teardown`**, **`class_setup`**, and **`class_teardown`**.
-      -  The method **`create_with_action()`** is the unit test method for our CUT. Test methods are easily identifiable by the addition **`FOR TESTING`** in the method signature.
+      -  The method **`create_with_action()`** is the unit test method for our CUT. Test methods are easily identifiable by the addition **`FOR TESTING`** in the method signature.    
+    </details>
+
        
-3. Save ![save icon](images/adt_save.png) the changes.
+2. Save ![save icon](images/adt_save.png) the changes.
      
  </details>
 
@@ -326,8 +330,10 @@ ABAP Unit test methods: **`<test method>()`** represents each unit test method f
    The source code should look like this:
 
    ![Test Class](images/ex8_3.png)
-         
-   **Short explanation:**  
+
+    <details>
+      <summary>ℹ️ Brief Explanation - Click to expand!</summary>
+
    - The complete CUT is a complex EML Statement comprising a **`MODIFY ENTITIES`** statement **`CREATE`** and **`EXECUTE`** additions, and a **`COMMIT ENTITIES`** statement.
    - The class **`CL_ABAP_UNIT_ASSERT`** is used in test method implementations to check/assert the test assumptions. It offers various static methods for the purposes - e.g. `assert_equals()`, `assert_initial()`, `assert_not_initial()`, and `assert_differs()`.
    - Block (1) 
@@ -345,6 +351,9 @@ ABAP Unit test methods: **`<test method>()`** represents each unit test method f
         - Third assertion block to check the successful persistence of the data in the test doubles. 
         - For that, the committed data is first read via a **`SELECT`** statement on the base BO view **`ZRAP100_R_TravelTP_####`**; The data is read from the configure test double.
         - Various assertion checks are performed. Please read the comment lines in the code snippet for more explanation.
+            
+    </details>
+
 
 8.	Save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the changes.
   
