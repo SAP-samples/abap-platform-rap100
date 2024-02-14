@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service def forZRAP100_C_TRAVELTP_SOL'
+@ObjectModel.leadingEntity.name: 'ZRAP100_C_TRAVELTP_SOL'
+define service ZRAP100_UI_TRAVEL_SOL {
+  expose ZRAP100_C_TRAVELTP_SOL as Travel;
+}
