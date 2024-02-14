@@ -25,17 +25,21 @@ Please edit this file as it is the primary description file for your project. Yo
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
 -->
 
-# For Trial Space at DSAG Technologietage 2024 start with [Exercise 1](exercises/ex01/README.md)
+<!--
+# For Trial Space at DSAG Technologietage 2024 start with [Exercise 1](exercises/ex01/README.md) 
+-->
 
 ## Description
 <!-- Please include SEO-friendly description -->
 
-This repository contains the material for the hands-on session **RAP100 - Building Fiori Apps with the ABAP RESTful Application Programming Model (RAP)**.
+This repository contains the material for the hands-on session **RAP100 - Building Fiori Apps with the ABAP RESTful Application Programming Model (RAP)**. 
 
+**Table of Content**
 - [Requirements for attending this workshop](#requirements-for-attending-this-workshop)
 - [Overview](#overview)
 - [Exercises](#exercises)
 - [Recordings](#recordings)
+- [Solution Package](#solution-package)
 - [Known Issues](#known-issues)
 - [How to obtain support](#how-to-obtain-support)
 - [About the ABAP RESTful Application Programming Model (RAP)](#about-the-abap-restful-application-programming-model)
@@ -44,7 +48,7 @@ This repository contains the material for the hands-on session **RAP100 - Buildi
 ## 📋Requirements for attending this workshop 
 [^Top of page](#)
 
-> To complete the practical exercises in this workshop, you need the latest version of the ABAP Development Tools for Eclipse (ADT) on your laptop or PC and the access to a suitable ABAP system - i.e. SAP BTP ABAP Environment, SAP S/4HANA Cloud, Public Cloud or at least release 2022 of SAP S/4HANA and SAP S/4HANA Cloud, Private Edition.
+> To complete the practical exercises in this workshop, you need the latest version of the ABAP Development Tools for Eclipse (ADT) on your laptop or PC and the access to a suitable ABAP system - i.e. SAP BTP ABAP Environment, SAP S/4HANA Cloud Public Cloud, or at least release 2022 of SAP S/4HANA Cloud Private Edition and SAP S/4HANA.
 > 
 > The [ABAP Flight Reference Scenario](https://github.com/SAP-samples/abap-platform-refscen-flight) must be imported into the relevant system - e.g. SAP BTP ABAP Environment Trial. 
 
@@ -136,9 +140,22 @@ Watch the replay of the virtual workshop on RAP held SAP TechEd in 2022. It cont
 
 📹 <a href="http://www.youtube.com/watch?feature=player_embedded&v=BNoUYkizM30" target="_blank">Build and Extend Apps with the ABAP RESTful Application Programming Model</a> 
 
-<!--
-## 📩Download and Installation
--->
+## 📤Solution Package
+
+> You can import the solution package **`ZRAP100_SOL`** into your system*. 
+>
+> (*) The supported ABAP systems are SAP BTP ABAP Environment, SAP S/4HANA Cloud Public Edition, or at least the release 2022 of SAP S/4HANA Cloud Private Edition and SAP S/4HANA.
+> The [ABAP Flight Reference Scenario](https://github.com/SAP-samples/abap-platform-refscen-flight) must available in the system before importing the solution package.
+
+Follow this instructions to import the solution:
+
+1. [Install the abapGit plugin in your ABAP Development Tools (ADT) for Eclipse](https://developers.sap.com/tutorials/abap-install-abapgit-plugin.html) if you have not already done so.
+2. In ADT, create the ABAP package **`ZRAP100_SOL`** in your system.
+3. Open the **abapGit Repositories** view in ADT and follow the steps below.  
+4. Create a link to the repository using the **Link abapGit Repository** window.    
+    📤 Git repository URL: https://github.com/SAP-samples/abap-platform-rap100
+5. Now pull/import the solution implementation using the context menu _**Pull...**_.
+6. Activate the imported development objects (**Ctrl+Shift+F3**).
 
 ## ⚠Known Issues
 No known issues. 
