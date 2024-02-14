@@ -25,10 +25,6 @@ Please edit this file as it is the primary description file for your project. Yo
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
 -->
 
-<!--
-# For Trial Space at DSAG Technologietage 2024 start with [Exercise 1](exercises/ex01/README.md) 
--->
-
 ## Description
 <!-- Please include SEO-friendly description -->
 
@@ -104,9 +100,13 @@ Follow these steps to build an OData service on top of a draft-enabled RAP Busin
 
 #### Beginner Level
 
+<!--
+> ⚠️ Skip the _Getting Started_ exercise and start directly with [Exercise 1](exercises/ex01/README.md) 
+-->
+
 | Exercises | -- |
 | ------------- |  -- |
-| [Getting Started - Skip this step for DSAG Technologietage 2024](exercises/ex0/README.md) | -- |
+| [Getting Started](exercises/ex0/README.md) | -- |
 | [Exercise 1: Create Database Table and Generate UI Service](exercises/ex01/README.md) | -- |
 | [Exercise 2: Enhance the BO Data Model and Enable OData Streams](exercises/ex02/README.md) | -- |
 | [Exercise 3: Enhance the BO Behavior – Early Numbering](exercises/ex03/README.md) | -- |
