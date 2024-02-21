@@ -75,13 +75,13 @@ In this hands-on session we will guide you through the development of the OData 
 
 The resulting app will look like this:
 
-![Travel App](images/travelapp01.png)
+![Travel App](exercises/images/rap100_travelapp01.png)
 
 The OData service you are going to implement is based on the _ABAP Flight Reference Scenario_. To set the business context, the scenario is the following: The department responsible for managing worldwide Travels for multiple Agencies is requesting you to build a new Fiori app with draft capabilities for processing (i.e. creating, updating and deleting) Travels.
 
 Below is the simplified data model underlying the app.
 
-![Travel App](images/datamodel01.png)
+![Travel App](exercises/images/rap100_datamodel01.png)
 
 > **Please note**:   
 > The purpose of the different exercises is to show you how to implement the different RAP core features - and less on having the perfect business scenario.
@@ -181,7 +181,7 @@ RAP offers a set of concepts, tools, languages, and powerful frameworks for effi
 
 The illustration below shows the high-level end-to-end development stack when working with RAP.  
 
-![RAP Big Picture](images/rap_bigpicture.png)
+![RAP Big Picture](exercises/images/rap_bigpicture.png)
 
 > **Learn more**: [Modern ABAP Development with the ABAP RESTful Application Programming Model (RAP)](https://community.sap.com/topics/abap/rap)
 
