@@ -1,7 +1,6 @@
 projection;
 strict ( 2 );
 use draft;
-
 define behavior for ZRAP100_C_TRAVELTP_SOL alias Travel
 use etag
 
@@ -15,9 +14,8 @@ use etag
   use action Discard;
   use action Resume;
   use action Prepare;
-
-  use action acceptTravel;
-  use action rejectTravel;
   use action deductDiscount;
   use action copyTravel;
-}
+  use action acceptTravel;
+  use action rejectTravel;
+ }

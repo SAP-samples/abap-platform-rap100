@@ -1,6 +1,5 @@
-"! This class is used to fill travel data into the table zrap100_atrav###
 CLASS zcl_rap100_gen_data_sol DEFINITION
- PUBLIC
+PUBLIC
   FINAL
   CREATE PUBLIC .
 
@@ -11,22 +10,21 @@ CLASS zcl_rap100_gen_data_sol DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-
-CLASS ZCL_RAP100_GEN_DATA_SOL IMPLEMENTATION.
+CLASS zcl_rap100_gen_data_sol IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     DATA:
-      group_id   TYPE string VALUE 'SOL',
+      group_id   TYPE string VALUE 'sol',
       attachment TYPE /dmo/attachment,
       file_name  TYPE /dmo/filename,
       mime_type  TYPE /dmo/mime_type.
 
 *   clear data
-    DELETE FROM zrap100_atravSOL.
-    DELETE FROM zrap100_dtravSOL.
+    DELETE FROM zrap100_atravsol.
+*    DELETE FROM zrap100_dtravsol.
 
     "insert travel demo data
-    INSERT zrap100_atravSOL  FROM (
+    INSERT zrap100_atravsol  FROM (
         SELECT
           FROM /dmo/travel AS travel
           FIELDS
@@ -56,8 +54,7 @@ CLASS ZCL_RAP100_GEN_DATA_SOL IMPLEMENTATION.
             ORDER BY travel_id UP TO 10 ROWS
       ).
     COMMIT WORK.
-
     out->write( |[RAP100] Demo data generated for table ZRAP100_ATRAV{ group_id }. | ).
   ENDMETHOD.
-
 ENDCLASS.
+
