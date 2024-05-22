@@ -195,6 +195,7 @@ You can find further information on the ABAP RESTful Application Programming Mod
  - [Modernization with RAP](https://blogs.sap.com/2021/10/18/modernization-with-rap/) (_Blog post_)   
  - Most frequently asked questions: [ABAP Cloud FAQ](https://community.sap.com/topics/abap/abap-cloud-faq) | [RAP FAQ](https://blogs.sap.com/2020/10/16/abap-restful-application-programming-model-faq/)    
  - [RAP100 Tutorials Mission on SAP Developers Center](https://developers.sap.com/mission.sap-fiori-abap-rap100.html) | SAP Developers' Center
+ - [Landing page with various hands-on workshop materials on ABAP Cloud, including RAP and embedded analytics](https://github.com/SAP-samples/abap-platform-rap-workshops/blob/main/README.md) 
 
 <!--
 ## Contributing
