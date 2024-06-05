@@ -220,11 +220,11 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
       | **RAP Layer**          |  **Artefacts**           | **Artefact Names**                                       |     
       |:---------------------- |:------------------------ |:-------------------------------------------------------- |
       | **Business Object**    |                          |                                                          |                        
-      |                        |  **Data Model**          |  Data Definition Name:   **`ZRAP100_R_TravelTP_###`**    |
+      |                        |  **Data Model**          |  Data Definition Name:   **`ZRAP100_R_TRAVELTP_###`**    |
       |                        |                          |  Alias Name:             **`Travel`**                    |   
-      |                        |  **Behavior**            |  Implementation Class:   **`ZRAP100_BP_TravelTP_###`**   |
+      |                        |  **Behavior**            |  Implementation Class:   **`ZRAP100_BP_TRAVELTP_###`**   |
       |                        |                          |  Draft Table Name:       **`ZRAP100_DTRAV###`**          |
-      | **Service Projection** | _(BO Projection)_        |  Name:                   **`ZRAP100_C_TravelTP_###`**    |   
+      | **Service Projection** | _(BO Projection)_        |  Name:                   **`ZRAP100_C_TRAVELTP_###`**    |   
       | **Business Services**  |                          |                                                          |          
       |                        |  **Service Definition**  |  Name:         **`ZRAP100_UI_TRAVEL_###`**               |
       |                        |  **Service Binding**     |  Name:         **`ZRAP100_UI_TRAVEL_O4_###`**            |
