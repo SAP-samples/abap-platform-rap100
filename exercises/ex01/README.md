@@ -226,8 +226,8 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
       |                        |                          |  Draft Table Name:       **`ZRAP100_DTRAV###`**          |
       | **Service Projection** | _(BO Projection)_        |  Name:                   **`ZRAP100_C_TravelTP_###`**    |   
       | **Business Services**  |                          |                                                          |          
-      |                        |  **Service Definition**  |  Name:         **`ZRAP100_UI_Travel_###`**               |
-      |                        |  **Service Binding**     |  Name:         **`ZRAP100_UI_Travel_O4_###`**            |
+      |                        |  **Service Definition**  |  Name:         **`ZRAP100_UI_TRAVEL_###`**               |
+      |                        |  **Service Binding**     |  Name:         **`ZRAP100_UI_TRAVEL_O4_###`**            |
       |                        |                          |  Binding Type: **`OData V4 - UI`**                       |
                        
       <!-- ![generator](images/p7a.png)  --> 
