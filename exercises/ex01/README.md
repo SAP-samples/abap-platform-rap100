@@ -360,9 +360,8 @@ Below is a brief explanation of the generated artefacts for the different RAP la
       } ]
     ```
 
-     ![class](adjust.png)
+     ![adjust](adjust.png)
 
-  
   2. Save and activate.
 
 ## Exercise 1.6: Publish and Preview the Travel App
