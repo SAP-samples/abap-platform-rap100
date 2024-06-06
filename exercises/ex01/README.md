@@ -350,19 +350,23 @@ Below is a brief explanation of the generated artefacts for the different RAP la
 
 ## Excercise 1.5: Adjust metadata extension
 
- 1. Open your metadata extension **`ZRAP100_C_TRAVELTP_###`** and adjust it.
+ <details>
+  <summary>Click to expand!</summary>
 
-    The field **attachment** is a raw string (data type `RAWSTRING`) and cannot be used in the filter bar, so the annotation **`@UI.selectionField`** is not allowed for this field and should be removed. Therefore, remove following annotation block for the field attachment:
+   1. Open your metadata extension **`ZRAP100_C_TRAVELTP_###`** and adjust it.
 
-    ```ABAP
-    @UI.selectionField: [ {
-        position: 10 
-      } ]
-    ```
+      The field **attachment** is a raw string (data type `RAWSTRING`) and cannot be used in the filter bar, so the annotation **`@UI.selectionField`** is not allowed for this field and should be removed. Therefore, remove following annotation block for the field attachment:
 
-     ![adjust](adjust.png)
+      ```ABAP
+      @UI.selectionField: [ {
+          position: 10 
+        } ]
+      ```
+       <img src="images/adjust.png" alt="table" width="50%">  
 
   2. Save and activate.
+
+</details>
 
 ## Exercise 1.6: Publish and Preview the Travel App
 [^Top of page](#)
