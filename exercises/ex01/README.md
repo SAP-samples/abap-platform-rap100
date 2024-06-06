@@ -12,7 +12,7 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
 - [1.2 - Create database table](#exercise-12-create-database-table)
 - [1.3 - Create data generator class](#exercise-13-create-data-generator-class)
 - [1.4 - Generate the transactional UI services](#exercise-14-generate-the-transactional-ui-service)
-- [1.5 - Adjust metadata extension](#exercise-15-adjust-metadata-extension)
+- [1.5 - Adjust metadata extension](#excercise-15-adjust-metadata-extension)
 - [1.6 - Publish and Preview the Travel App](#exercise-16-publish-and-preview-the-travel-app)
 - [Summary](#summary)
 
