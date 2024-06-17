@@ -191,9 +191,13 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
   <details>
 
 
+
+**Caution:** 
+The generator UI looks different in cloud based systems (ABAP Environment) and on premise systems.      
+
 --------------------------------------------------------------------------------------
 
-  <summary>Click to expand for Cloud System !</summary>   
+  <summary>Click to expand for **Cloud System**</summary>   
  
    1. Select **OData UI Service** and click **Next >**.   
        
@@ -212,7 +216,7 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
 --------------------------------------------------------------------------------------  
      
   <details>
-   <summary>Click to expand for On Premise System !</summary>
+   <summary>Click to expand for **On Premise System**</summary>
 
    1. Provide a description, select **ABAP RESTful Application Programmind Model: UI Service** and click **Next >**.    
     
