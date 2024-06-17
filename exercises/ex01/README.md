@@ -188,14 +188,15 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
        <!-- ![class](images/p6a.png)  -->  
        <img src="images/p6a.png" alt="table" width="50%">   
 
-  <details>
+  
 
 
 
   **Caution:** 
   The generator UI looks different in cloud based systems (ABAP Environment) and on premise systems.     
-  
-
+   
+  <details>  
+   
   --------------------------------------------------------------------------------------
 
   <summary>Click to expand for **Cloud System**</summary>   
