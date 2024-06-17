@@ -190,29 +190,29 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
 
   <details>
   
-   <summary>Click to expand for Cloud System !</summary>   
+  <summary>Click to expand for Cloud System !</summary>   
  
-       1. Select **OData UI Service** and click **Next >**.   
+   1. Select **OData UI Service** and click **Next >**.   
        
-          <img src="images/newgenerator2.png" alt="table" width="100%">   
+      <img src="images/newgenerator2.png" alt="table" width="100%">   
           
-       2. Click **Next >**.  
+   2. Click **Next >**.  
           
-          <img src="images/newgenerator3.png" alt="table" width="100%">     
+      <img src="images/newgenerator3.png" alt="table" width="100%">     
           
-       3. Enter a description.   
+   3. Enter a description.   
           
-          <img src="images/newgenerator4.png" alt="table" width="100%">    
+      <img src="images/newgenerator4.png" alt="table" width="100%">    
        
   </details>
   
      
   <details>
-  <summary>Click to expand for On Premise System !</summary>
+   <summary>Click to expand for On Premise System !</summary>
 
-     |1. Provide a description, select **ABAP RESTful Application Programmind Model: UI Service** and click **Next >**.    
+    1. Provide a description, select **ABAP RESTful Application Programmind Model: UI Service** and click **Next >**.    
     
-     <img src="images/generatorxx1.png" alt="table" width="100%">    
+       <img src="images/generatorxx1.png" alt="table" width="100%">    
    
   </details>
   
