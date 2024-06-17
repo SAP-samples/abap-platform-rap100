@@ -189,7 +189,10 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
        <img src="images/p6a.png" alt="table" width="50%">   
 
   <details>
-  
+
+
+--------------------------------------------------------------------------------------
+
   <summary>Click to expand for Cloud System !</summary>   
  
    1. Select **OData UI Service** and click **Next >**.   
@@ -205,17 +208,21 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
       <img src="images/newgenerator4.png" alt="table" width="100%">    
        
   </details>
-  
+
+--------------------------------------------------------------------------------------  
      
   <details>
    <summary>Click to expand for On Premise System !</summary>
 
-    1. Provide a description, select **ABAP RESTful Application Programmind Model: UI Service** and click **Next >**.    
+   1. Provide a description, select **ABAP RESTful Application Programmind Model: UI Service** and click **Next >**.    
     
-       <img src="images/generatorxx1.png" alt="table" width="100%">    
+      <img src="images/generatorxx1.png" alt="table" width="100%">    
    
   </details>
   
+
+--------------------------------------------------------------------------------------
+   
    <!--    
        ___________________________________________________________________________________________________________________________________________________
 
