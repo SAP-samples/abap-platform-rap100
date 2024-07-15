@@ -147,15 +147,20 @@ Watch the replay of the virtual workshop on RAP held SAP TechEd in 2022. It cont
 > (*) The supported ABAP systems are SAP BTP ABAP Environment, SAP S/4HANA Cloud Public Edition, or at least the release 2022 of SAP S/4HANA Cloud Private Edition and SAP S/4HANA.
 > The [ABAP Flight Reference Scenario](https://github.com/SAP-samples/abap-platform-refscen-flight) must available in the system before importing the solution package.
 
+<details>
+<summary>Click to expand!</summary>
+  
 Follow this instructions to import the solution:
 
 1. [Install the abapGit plugin in your ABAP Development Tools (ADT) for Eclipse](https://developers.sap.com/tutorials/abap-install-abapgit-plugin.html) if you have not already done so.
 2. In ADT, create the ABAP package **`ZRAP100_SOL`** in your system.
 3. Open the **abapGit Repositories** view in ADT and follow the steps below.  
 4. Create a link to the repository using the **Link abapGit Repository** window.    
-    📤 Git repository URL: https://github.com/SAP-samples/abap-platform-rap100
+    📤 Git repository URL: `https://github.com/SAP-samples/abap-platform-rap100`
 5. Now pull/import the solution implementation using the context menu _**Pull...**_.
 6. Activate the imported development objects (**Ctrl+Shift+F3**).
+
+</details>   
 
 ## ⚠Known Issues
 No known issues. 
@@ -203,4 +208,4 @@ If you wish to contribute code, offer fixes or improvements, please send a pull 
 -->
 
 ## License
-Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
+Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
