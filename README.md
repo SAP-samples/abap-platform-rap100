@@ -30,6 +30,8 @@ Please edit this file as it is the primary description file for your project. Yo
 
 This repository contains the material for the hands-on session **RAP100 - Building Fiori Apps with the ABAP RESTful Application Programming Model (RAP)**. 
 
+> ℹ️ Access the new RAP100 GitHub repository with the updated script 👉 [**here**](https://github.com/SAP-samples/abap-platform-rap100).
+
 **Table of Content**
 - [Requirements for attending this workshop](#requirements-for-attending-this-workshop)
 - [Overview](#overview)
