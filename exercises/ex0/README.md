@@ -5,6 +5,8 @@
 
 ## Introduction
 
+> ℹ️ Access the new RAP100 GitHub repository with the updated script 👉 [**here**](https://github.com/SAP-samples/abap-platform-rap100).
+
 The screenshots in this document have been taken using group ID **`000`** and system **`D22`**. We **do not recommend** using group ID **`000`**. 
 
 Please note that ADT dialogs and views, as well as Fiori UIs, may change in future releases.
