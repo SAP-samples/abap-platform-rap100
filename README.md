@@ -45,7 +45,7 @@ This repository contains the material for the hands-on session **RAP100 - Buildi
 ## 📋Requirements for attending this workshop 
 [^Top of page](#)
 
-> To complete the practical exercises in this workshop, you need the latest version of the ABAP Development Tools for Eclipse (ADT) on your laptop or PC and the access to a suitable ABAP system - i.e. SAP BTP ABAP Environment, SAP S/4HANA Cloud Public Cloud, or at least release 2022 of SAP S/4HANA Cloud Private Edition and SAP S/4HANA.
+> To complete the practical exercises in this workshop, you need the latest version of the ABAP Development Tools for Eclipse (ADT) on your laptop or PC and the access to a suitable ABAP system - i.e. SAP BTP ABAP Environment, SAP S/4HANA Cloud Public Edition, or at least release 2022 of SAP S/4HANA Cloud Private Edition and SAP S/4HANA.
 > 
 > The [ABAP Flight Reference Scenario](https://github.com/SAP-samples/abap-platform-refscen-flight) must be imported into the relevant system - e.g. SAP BTP ABAP Environment Trial. 
 
@@ -88,8 +88,8 @@ Below is the simplified data model underlying the app.
 > The purpose of the different exercises is to show you how to implement the different RAP core features - and less on having the perfect business scenario.
 > To remove a certain complexity in the implementation, we will use a very simplified data model with only one BO node, the _Travel_ entity.   
 > For implementation examples with more than one BO node, you can have a look at:
-> - Workshop **[DEV260](../readme.md)**
 > - RAP Development Guide on the SAP Help Portal: **[Develop Applications](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/4cff5dff7f2642cab54e993c840a163e.html)**
+> - Workshop **[RAP110](https://github.com/SAP-samples/abap-platform-rap110)**
 
 </details>
 
