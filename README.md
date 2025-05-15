@@ -160,7 +160,9 @@ Follow this instructions to import the solution:
 4. Create a link to the repository using the **Link abapGit Repository** window.    
     📤 Git repository URL: `https://github.com/SAP-samples/abap-platform-rap100`
 5. Now pull/import the solution implementation using the context menu _**Pull...**_.
-6. Activate the imported development objects (**Ctrl+Shift+F3**).
+6. Activate the imported development objects (**Ctrl+Shift+F3**). 
+
+You can also check out this how-to tutorial: [Push your ABAP source code from SAP BTP ABAP environment to a GitHub repository using abapGit](https://developers.sap.com/tutorials/abap-environment-abapgit-transfer..html).
 
 </details>   
 
