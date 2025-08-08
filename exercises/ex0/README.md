@@ -13,15 +13,15 @@ Please note that ADT dialogs and views, as well as Fiori UIs, may change in futu
 
 You can find the solution for this workshop in the development package **`ZRAP100_SOL`**, or you can import it from [here](https://github.com/SAP-samples/abap-platform-rap100/) into your system.  
 
-You've already received user credentials (_read Login Details below_) from the SAP Team  **or** created an account on the SAP BTP ABAP environment Trial.
+You've either already received user credentials from the SAP event team (see the note _About Login Details_ below), **or** you've created an account on the SAP BTP ABAP environment Trial.
 
 Now, let's get started!
 
->> ⚠ **Login Details**: ⚠    
->>  
->> Participants of SAP-led events (e.g. **ABAP Developer Day** or **SAP CodeJam**) will receive logon details - i.e. system information and user credentials - to a dedicated ABAP system from the SAP team via e-mail prior to the event or during the respective event.
->> Please inform the workshop instructor if you haven't received your login details.
->> 
+> [!NOTE]  
+> **About Login Details**:    
+> Participants of SAP-led events (e.g. **ABAP Developer Day** or **SAP CodeJam**) will receive logon details - i.e. system information and user credentials - to a dedicated ABAP system from the SAP team via e-mail prior to the event or during the respective event.
+> Please inform the workshop instructor if you haven't received your login details.
+
 
 - [Group ID](#group-id)
 - [Create an _ABAP Cloud Project_ or an _ABAP Project_ in ADT](#create-an-abap-cloud-project-or-an-abap-project-in-adt)
@@ -39,7 +39,7 @@ Now, let's get started!
 > and separate them from those of other users conducting the same workshop on this system.
 >
 > The group ID will be used to replace all occurences of the placeholder **`###`** in the different exercises of this workshop.
->
+> 
 > ⚠ **Please note:** ⚠    
 > If you've been assigned a group ID by the SAP team, then please skip this section and go directly ahead with the next one to create an _ABAP Cloud Project_ or an _ABAP Project_ in ADT.  
 
