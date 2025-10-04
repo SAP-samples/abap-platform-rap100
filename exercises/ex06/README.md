@@ -153,7 +153,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
    You can use the **ABAP Pretty Printer** (**Ctrl+F1**) to format your source code.
 
 
-   ```ABAP  
+   <pre lang="ABAP">  
    **************************************************************************
    * Instance-bound non-factory action:
    * Deduct the specified discount from the booking fee (BookingFee)
@@ -194,7 +194,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
      result = VALUE #( FOR travel IN travels_with_discount ( %tky   = travel-%tky
                                                                %param = travel ) ).
    ENDMETHOD.
-   ```
+   </pre>
 
    The result should look like this:
 
@@ -241,8 +241,8 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
    For that, open your metadata extension ![ddlx icon](images/adt_ddlx.png)**`ZRAP100_C_TRAVELTP_###`** and replace the existing all **`@UI`** annotation block placed before the element **`OverallStatus`** with the code snippet provided below as shown on the screenshot below. The semantic of the annotation **`@UI.identification`** will be enhanced for the purpose. 
    
    **Please note**: Some lines in the provided code snippet are commented out using **`//`** at the beginning. **DO NOT remove them**. You will uncomment these lines in the following exercise steps.
-   
-   ```
+      
+   <pre lang="ABAP CDS">
      @UI: {
          lineItem:       [ { position: 100, importance: #HIGH }                          
                            //,{ type: #FOR_ACTION, dataAction: 'copyTravel', label: 'Copy Travel' } 
@@ -256,7 +256,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
               ],
            textArrangement: #TEXT_ONLY
          }
-   ```
+   </pre>
 
    The result should look like this:
    
@@ -342,7 +342,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
    
    You can use the **ABAP Pretty Printer** (**Ctrl+F1**) to format your source code.
       
-   ```ABAP  
+   <pre lang="ABAP">
    **************************************************************************
    * Instance-bound non-factory action with parameter `deductDiscount`:
    * Deduct the specified discount from the booking fee (BookingFee)
@@ -408,7 +408,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
       result = VALUE #( FOR travel IN travels_with_discount ( %tky   = travel-%tky
                                                               %param = travel ) ).
     ENDMETHOD.
-   ```
+   </pre>
    
    The result should look like this:
    
@@ -517,7 +517,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
    
    For that, replace the current method implementation with the code snippet provided below and replace all occurrences of the placeholder **`###`** with your group ID.   
    
-   ```ABAP  
+   <pre lang="ABAP">
    **************************************************************************
    * Instance-bound factory action `copyTravel`:
    * Copy an existing travel instance
@@ -564,8 +564,8 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
 
        " set the new BO instances
        mapped-travel   =  mapped_create-travel .
-     ENDMETHOD.   
-   ```
+     ENDMETHOD.              
+   </pre>
    
    Your source code should like this:
    
