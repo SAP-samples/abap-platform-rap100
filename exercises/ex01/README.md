@@ -215,7 +215,7 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
   --------------------------------------------------------------------------------------  
      
   <details>
-   <summary>Click to expand for **On Premise System**</summary>
+   <summary>Click to expand for **On Premise system release 2022 and lower**</summary>
 
    1. Provide a description, select **ABAP RESTful Application Programmind Model: UI Service** and click **Next >**.    
     
