@@ -154,7 +154,7 @@ Here are some useful ADT keyboard shortcuts for the ABAP development in Eclipse.
 
 ![ADT Shortcuts](images/adt_shortcuts.png)
 
-More useful ADT shortcuts can be found here: [Link](https://blogs.sap.com/2013/11/21/useful-keyboard-shortcuts-for-abap-in-eclipse/).
+More useful ADT shortcuts can be found on the SAP Help Portal here: [Link](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/keyboard-shortcuts-for-abap-development).
 
 > **Info**: You can display the full list of available shortcuts in the **Show Key Assit** in ADT by pressing **Ctrl+Shift+L**.
  
