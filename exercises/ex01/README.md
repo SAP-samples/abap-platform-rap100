@@ -8,9 +8,9 @@ In this exercise, you will create a transactional UI service along with the unde
 
 First you will create an ABAP package, a database table, and an ABAP class to fill the database table with demo data. Then you will use an ADT wizard to generate all the needed development RAP artefacts of your UI service on top of the database table. This includes the CDS data model, behavior definition, service definition, and service binding. Afterwards you will publish and check your _Travel_ application with the SAP Fiori elements preview. 
 
-- [1.1 - Create Package](#exercise-11-create-package)
-- [1.2 - Create database table](#exercise-12-create-database-table)
-- [1.3 - Create data generator class](#exercise-13-create-data-generator-class)
+- [1.1 - Create an ABAP package](#exercise-11-create-an-abap-package)
+- [1.2 - Create a database table](#exercise-12-create-a-database-table)
+- [1.3 - Create a data generator class](#exercise-13-create-a-data-generator-class)
 - [1.4 - Generate the transactional UI services](#exercise-14-generate-the-transactional-ui-service)
 - [1.5 - Adjust metadata extension](#excercise-15-adjust-metadata-extension)
 - [1.6 - Publish and Preview the Travel App](#exercise-16-publish-and-preview-the-travel-app)
@@ -19,10 +19,10 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
 
 > **Reminder:**   
 > Don't forget to replace all occurences of the placeholder **`###`** with your group ID in the exercise steps below.  
-> You can use the ADT function **Replace All** (**Ctrl+F**) for the purpose.   
+> You can use the Elipse function **Replace All** (**Ctrl+F**) for the purpose.   
 > If you don't have a group ID yet, then check the section [Getting Started - Group ID](../ex0/README.md#group-id).    
 
-## Exercise 1.1: Create Package
+## Exercise 1.1: Create an ABAP package
 [^Top of page](#)
 
 > Create your exercise package![package](images/adt_package.png).   
@@ -45,16 +45,16 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
       Click **Next >**.
 
       <!-- ![package](images/p1b.png)  -->  
-      <img src="images/p1b.png" alt="table" width="50%">
+      <img src="images/p1b.png" alt="table" width="40%">
    
    3. Select a transport request, maintain a description (e.g. _**RAP100 Package ###**_), and click **Finish**.
       
       <!-- ![package](images/p1c.png)  -->  
-      <img src="images/p1c.png" alt="table" width="50%">
+      <img src="images/p1c.png" alt="table" width="40%">
 
 </details>
 
-## Exercise 1.2: Create database table
+## Exercise 1.2: Create a database table
 [^Top of page](#)
 
 > Create a database table![table](images/adt_tabl.png) to store the _Travel_ data.   
@@ -71,14 +71,14 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
    2. Search for **database table**, select it, and click **Next >**.
 
       <!--  ![table](images/p2b.png) -->
-      <img src="images/p2b.png" alt="table" width="50%">
+      <img src="images/p2b.png" alt="table" width="40%">
    
    3. Maintain the required information (`###` is your group ID) and click **Next >**.
       - Name: **`ZRAP100_ATRAV###`**
       - Description: _**`Travel data`**_                  
              
       <!-- ![table](images/p2c.png)-->    
-      <img src="images/p2c.png" alt="table" width="50%">
+      <img src="images/p2c.png" alt="table" width="40%">
 
    4. Select a transport request, and click **Finish** to create the database table.
    
@@ -117,13 +117,13 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
       }
       </pre>
  
-      <img src="images/Picture22x.png" alt="table" width="60%">
+      <img src="images/Picture22x.png" alt="table" width="40%">
       
    6. Save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the changes.
    
 </details>
 
-## Exercise 1.3: Create data generator class
+## Exercise 1.3: Create a data generator class
 [^Top of page](#)
 
 > Create an ABAP class![class](images/adt_class.png) to generate demo _travel_ data.
@@ -134,20 +134,20 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
    1. Right-click your ABAP package **`ZRAP100_###`** and select **New** > **ABAP Class** from the context menu.
 
       <!--  ![class](images/p3a.png) -->
-      <img src="images/p3a.png" alt="table" width="70%">
+      <img src="images/p3a.png" alt="table" width="40%">
    
    2. Maintain the required information (`###` is your group ID) and click **Next >**.
       - Name: **`ZCL_RAP100_GEN_DATA_###`**
       - Description: _**`Generate demo data`**_      
    
       <!-- ![class](images/p3b.png) -->
-      <img src="images/p3b.png" alt="table" width="60%">
+      <img src="images/p3b.png" alt="table" width="40%">
 
    3. Select a transport request and click **Finish** to create the class.
    
-   4. Replace the default source code with the code snippet provided in the source code document **`ZRAP100_GEN_DATA_###`** linked below and replace all occurences of the placeholder **`###`** with your group ID using the **Replace All** function (**Ctrl+F**).
+   4. Replace the default source code with the code snippet provided in the source code document **`ZRAP100_GEN_DATA_###`** linked below and replace all occurrences of the placeholder **`###`** with your group ID using the **Replace All** function (**Ctrl+F**).
  
-      You can use the **ABAP Pretty Printer** (**ABAP Formatter**) function using by pressing **Shift+F1** to format the source code. You will be requested to configure it, if this is the first time you use it on the system.
+      You can use the **ABAP Formatter** function in Eclipse by pressing **Shift+F1** to format the source code. You will be requested to configure it, if this is the first time you use it on the system.
  
       **Hint**: Open the document in a new tab. In the document editor, use the _Copy raw contents_ icon <img src="images/copyrawcontents.png" alt="table" width="30px"> in the toolbar to copy the full source code. 
       
@@ -160,12 +160,12 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
       For that, select your ABAP class ![class](images/adt_class.png)**`ZCL_RAP100_GEN_DATA_###`**, select the run button > **Run As** > **ABAP Application (Console) F9** or press **F9**. 
    
       <!-- ![class](images/p4.png) -->
-      <img src="images/p4.png" alt="table" width="70%">
+      <img src="images/p4.png" alt="table" width="50%">
 
-      A message will be displayed _ABAP Console_.
+      A message will be displayed in the _ABAP Console_.
 
       <!-- ![class](images/p4a.png)  -->
-      <img src="images/p4a.png" alt="table" width="70%">
+      <img src="images/p4a.png" alt="table" width="50%">
       
    7. Open your database table ![table](images/adt_tabl.png)**`ZRAP100_ATRAV###`** and press **F8** to start the data preview and display the filled database entries, i.e. _travel_ data.
    
@@ -186,10 +186,7 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
    1. Right-click your database table ![table](images/adt_tabl.png)**`ZRAP100_ATRAV###`**  and select **Generate ABAP Repository Objects** from the context menu. 
 
        <!-- ![class](images/p6a.png)  -->  
-       <img src="images/p6a.png" alt="table" width="50%">   
-
-  
-
+       <img src="images/p6a.png" alt="table" width="40%">   
 
 
   **Caution:** 
@@ -203,15 +200,15 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
  
    1. Select **OData UI Service** and click **Next >**.   
        
-      <img src="images/newgenerator2.png" alt="table" width="100%">   
+      <img src="images/newgenerator2.png" alt="table" width="50%">   
           
    2. Click **Next >**.  
           
-      <img src="images/newgenerator3.png" alt="table" width="100%">     
+      <img src="images/newgenerator3.png" alt="table" width="50%">     
           
    3. Enter a description.   
           
-      <img src="images/newgenerator4.png" alt="table" width="100%">    
+      <img src="images/newgenerator4.png" alt="table" width="50%">    
        
   </details>
 
@@ -222,7 +219,7 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
 
    1. Provide a description, select **ABAP RESTful Application Programmind Model: UI Service** and click **Next >**.    
     
-      <img src="images/generatorxx1.png" alt="table" width="100%">    
+      <img src="images/generatorxx1.png" alt="table" width="50%">    
    
   </details>
   
