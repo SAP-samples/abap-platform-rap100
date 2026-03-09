@@ -30,8 +30,8 @@ Please edit this file as it is the primary description file for your project. Yo
 
 This repository contains the material for the hands-on session **RAP100 - Building Fiori Apps with the ABAP RESTful Application Programming Model (RAP)**. 
 
-
 **Table of Content**
+- [Target audience](#target-audience)
 - [Requirements for attending this workshop](#requirements-for-attending-this-workshop)
 - [Overview](#overview)
 - [Exercises](#exercises)
@@ -42,9 +42,18 @@ This repository contains the material for the hands-on session **RAP100 - Buildi
 - [About the ABAP RESTful Application Programming Model (RAP)](#about-the-abap-restful-application-programming-model)
 - [Further Information](#further-information)
 
-## 📋Requirements for attending this workshop 
+## 📋Target audience 
 [^Top of page](#)
 
+This hands-on workshop is intended for developers, architects, and technical consultants who want to gain practical experience with ABAP Cloud through guided exercises. The focus of the workshop is on the ABAP RESTful Application Programming Model (RAP), which is used to develop transactional local APIs and OData-based services for SAP Fiori apps and web APIs, as well as business events for loosely coupled integration scenarios. 
+
+## 📋Requirements for attending this workshop 
+
+> Participants should have an interest in exploring topics through guided exercises and should have the following knowledge: 
+> - a basic understanding of [ABAP](https://pages.community.sap.com/topics/abap/abap-for-newbies)↗
+> - Basic knwoledge of [ABAP Development Tools for Eclipse (ADT)](https://help.sap.com/docs/ABAP_DEVELOPMENT_TOOLS_FOR_ECLIPSE?locale=en-US&state=PRODUCTION&version=dev)↗
+> - Basic knwoledge of [ABAP Core Data Services (CDS)](https://community.sap.com/t5/technology-blogs-by-sap/getting-started-with-abap-core-data-services-cds/ba-p/13284593)↗
+>
 > To complete the practical exercises in this workshop, you need the latest version of the ABAP Development Tools for Eclipse (ADT) on your laptop or PC and the access to a suitable ABAP system - i.e. SAP BTP ABAP Environment, SAP S/4HANA Cloud Public Edition, or at least release 2022 of SAP S/4HANA Cloud Private Edition and SAP S/4HANA.
 > 
 > The [ABAP Flight Reference Scenario](https://github.com/SAP-samples/abap-platform-refscen-flight) must be imported into the relevant system - e.g. SAP BTP ABAP Environment Trial. 
