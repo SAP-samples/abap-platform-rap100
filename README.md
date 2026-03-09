@@ -51,9 +51,10 @@ This hands-on workshop is intended for developers, architects, and technical con
 [^Top of page](#)
 
 > Participants should have an interest in exploring topics through guided exercises and should have the following knowledge: 
-> - a basic understanding of [ABAP](https://pages.community.sap.com/topics/abap/abap-for-newbies)↗
+> - Basic of [ABAP knowledge](https://pages.community.sap.com/topics/abap/abap-for-newbies)↗
 > - Basic knwoledge of [ABAP Development Tools for Eclipse (ADT)](https://help.sap.com/docs/ABAP_DEVELOPMENT_TOOLS_FOR_ECLIPSE?locale=en-US&state=PRODUCTION&version=dev)↗
 > - Basic knwoledge of [ABAP Core Data Services (CDS)](https://community.sap.com/t5/technology-blogs-by-sap/getting-started-with-abap-core-data-services-cds/ba-p/13284593)↗
+> - Basic understanding of [ABAP RESTful Application Programming Model (RAP]()↗
 >
 > To complete the practical exercises in this workshop, you need the latest version of the ABAP Development Tools for Eclipse (ADT) on your laptop or PC and the access to a suitable ABAP system - i.e. SAP BTP ABAP Environment, SAP S/4HANA Cloud Public Edition, or at least release 2022 of SAP S/4HANA Cloud Private Edition and SAP S/4HANA.
 > 
