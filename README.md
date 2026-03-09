@@ -48,6 +48,7 @@ This repository contains the material for the hands-on session **RAP100 - Buildi
 This hands-on workshop is intended for developers, architects, and technical consultants who want to gain practical experience with ABAP Cloud through guided exercises. The focus of the workshop is on the ABAP RESTful Application Programming Model (RAP), which is used to develop transactional local APIs and OData-based services for SAP Fiori apps and web APIs, as well as business events for loosely coupled integration scenarios. 
 
 ## 📋Requirements for attending this workshop 
+[^Top of page](#)
 
 > Participants should have an interest in exploring topics through guided exercises and should have the following knowledge: 
 > - a basic understanding of [ABAP](https://pages.community.sap.com/topics/abap/abap-for-newbies)↗
