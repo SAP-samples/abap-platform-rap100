@@ -92,9 +92,9 @@ Once you've found an available group ID, choose **Cancel**.
 
 2. Now create the _**ABAP Cloud Project**_ as shown on the screenshots provided below. 
 
-    ![Create ABAP Project Cloud 1/2](images/steampunk_systemlogon1.png)
+   <img src="images/steampunk_systemlogon1.png" alt="Create ABAP Project Cloud 1/2" width="80%">  
 
-    ![Create ABAP Project Cloud 2/2](images/steampunk_systemlogon2.png)
+   <img src="images/steampunk_systemlogon2.png" alt="Create ABAP Project Cloud 2/2" width="100%">  
 
 </details>
 
