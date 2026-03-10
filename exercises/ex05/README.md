@@ -43,12 +43,12 @@ A validation is implicitly invoked by the business object’s framework if the t
 2. Because empty values will not be accepted for the fields **`CustomerID`**, **`BeginDate`**, and **`EndDate`**, specify them as _mandatory_ field 
    by adding the following code snippet after the determination as shown on the screenshot below.
  
-   <pre lang="ABAP">  
+   ```ABAP
     field ( mandatory )
     CustomerID,
     BeginDate,
     EndDate;  
-   </pre>   
+   ```
 
    Your source code should look like this:   
 
@@ -59,21 +59,21 @@ A validation is implicitly invoked by the business object’s framework if the t
      
    For that, add the following code snippet after the determination as shown on the screenshot below.
    
-   <pre lang="ABAP"> 
+   ```ABAP 
    validation validateCustomer on save { create; field CustomerID; }
    validation validateDates on save { create; field BeginDate, EndDate; }
-   </pre>          
+   ```          
 
 4. In order to have draft instances being checked by validations and determinations being executed before they become active, they have to be specified for the **`draft determine action prepare`** in the behavior definition.
   
    Replace the code line **`draft determine action Prepare;`** with the following code snippet as shown on the screenshot below
 
-   <pre lang="ABAP"> 
+   ```ABAP 
    draft determine action Prepare
    {
    validation validateCustomer;
    validation validateDates;    }
-   </pre>     
+   ```     
      
    Your source code should look like this: 
    

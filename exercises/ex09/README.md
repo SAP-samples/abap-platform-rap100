@@ -438,7 +438,9 @@ As suggested by the title: Play around with EML!
 For examples,
 - Copy the methods of your choice and adjust them as you like.  
 - Execute all operations: For that, set the variable **`execute`** to **`55`** and specify the required values (**`travel_id`** and **`instance_state`**) for the different operations.    
-  <pre> DATA(execute) = 55. </pre>
+  ```ABAP
+    DATA(execute) = 55.
+  ```
    
 Feel free to ask questions.
 

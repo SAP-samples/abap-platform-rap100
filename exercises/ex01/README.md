@@ -86,7 +86,7 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
  
       > **Hint**: Hover the code snippet and choose the _Copy raw contents_ icon <img src="images/copyrawcontents.png" alt="table" width="30px"> appearing in the upper-right corner to copy it. 
       
-      <pre lang="ABAP">
+      ```ABAP
       @EndUserText.label : 'Travel data'
       @AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
       @AbapCatalog.tableCategory : #TRANSPARENT
@@ -115,7 +115,7 @@ First you will create an ABAP package, a database table, and an ABAP class to fi
         local_last_changed_at : abp_locinst_lastchange_tstmpl;
         last_changed_at       : abp_lastchange_tstmpl; 
       }
-      </pre>
+      ```
  
       <img src="images/Picture22x.png" alt="table" width="40%">
       
@@ -398,7 +398,7 @@ Below is a brief explanation of the generated artefacts for the different RAP la
 
       The field **attachment** is a raw string (data type `RAWSTRING`) and cannot be used in the filter bar, so the annotation **`@UI.selectionField`** is not allowed for this field and should be removed. Therefore, remove following annotation block for the field attachment:
 
-      ```ABAP
+      ```ABAP-CDS
       @UI.selectionField: [ {
           position: 10 
         } ]

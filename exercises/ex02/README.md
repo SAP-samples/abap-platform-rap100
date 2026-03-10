@@ -44,7 +44,7 @@ The enablement of OData streams will give end-users the option to upload and dow
  
     Insert the following code snippet after the **`select`** statement as shown on the screenshot below and format the source code (**Shift+F1**).            
      
-    ```ABAP
+    ```ABAP-CDS
     association [0..1] to /DMO/I_Agency            as _Agency        on $projection.AgencyID = _Agency.AgencyID
     association [0..1] to /DMO/I_Customer          as _Customer      on $projection.CustomerID = _Customer.CustomerID
     association [1..1] to /DMO/I_Overall_Status_VH as _OverallStatus on $projection.OverallStatus = _OverallStatus.OverallStatus
@@ -59,7 +59,7 @@ The enablement of OData streams will give end-users the option to upload and dow
   
      For that, insert the code snippet provided below in the selection list between the curly brackets (`{...}`) as shown on the screenshot and format the source code (**Shift+F1**).
 
-     ```ABAP
+     ```ABAP-CDS
      ,
  
      //public associations
@@ -98,12 +98,12 @@ The enablement of OData streams will give end-users the option to upload and dow
  2. Use the code snippets provided below and annotate the elements as shown on the screenshot.
 
      - For element **`MimeType`**: 
-     ```ABAP
+     ```ABAP-CDS
         @Semantics.mimeType: true
      ```
 
      - For element **`Attachment`**:
-     ```ABAP
+     ```ABAP-CDS
        @Semantics.largeObject: { mimeType: 'MimeType',   //case-sensitive
                                  fileName: 'FileName',   //case-sensitive
                                  acceptableMimeTypes: ['image/png', 'image/jpeg'],
@@ -135,7 +135,7 @@ The enablement of OData streams will give end-users the option to upload and dow
  1. Open your data definition ![datadefinition](images/adt_ddls.png)**`ZRAP100_C_TRAVELTP_###`** and format the generated source code with the **Pretty Printer** (**Shift+F1**)..
     
     Specify the projection view as searchable by adding the following view annotation as shown on the screenshot below:  
-    ```ABAP
+    ```ABAP-CDS
      @Search.searchable: true
     ```
  
@@ -143,7 +143,7 @@ The enablement of OData streams will give end-users the option to upload and dow
     > In the generated data definition, the element `TravelID` is specified as the semantic key of the _Travel_ entity with the view annotation `@ObjectModel.semanticKey: ['TravelID']` and the CDS projection view is specified as BO projections with the addition `provider contract transactional_query` in the `DEFINE ROOT VIEW ENTITY` statement.  
  
     Replace the end-user label text:  
-    ```ABAP
+    ```ABAP-CDS
      @EndUserText.label: '##GENERATED Travel App (###)'
     ```
  
@@ -159,16 +159,16 @@ The enablement of OData streams will give end-users the option to upload and dow
     For that, add the appropriate code snippets as shown on the screenshot below:
  
     - Define `AgencyName` after `AgencyID`:
-       ```ABAP
+       ```ABAP-CDS
          _Agency.Name              as AgencyName,
        ```
     - Define `CustomerName` after `CustomerID`:
-       ```ABAP
+       ```ABAP-CDS
          _Customer.LastName        as CustomerName,
        ```  
  
     - Define `OverallStatusText` after `OverallStatus`:    
-       ```ABAP
+       ```ABAP-CDS
          _OverallStatus._Text.Text as OverallStatusText : localized,
        ```  
       > Note: The keyword `localized` is used to display text elements in the current system language.
@@ -182,14 +182,14 @@ The enablement of OData streams will give end-users the option to upload and dow
      
     - For the element **`TravelID`**: Enable the full-text search with a specific fuzziness (error tolerance).    
 
-       ```ABAP
+       ```ABAP-CDS
        @Search.defaultSearchElement: true
        @Search.fuzzinessThreshold: 0.90    
        ```
      
     - For element **`AgencyID`**: Enable the full-text search, define a value help, and specified **`AgencyName`** as associated text. The defined value help shall be automatically used for frontend validations in Fiori elements UIs.
 
-       ```ABAP
+       ```ABAP-CDS
        @Search.defaultSearchElement: true
        @ObjectModel.text.element: ['AgencyName']
        @Consumption.valueHelpDefinition: [{ entity : {name: '/DMO/I_Agency_StdVH', element: 'AgencyID' }, useForValidation: true }] 
@@ -197,7 +197,7 @@ The enablement of OData streams will give end-users the option to upload and dow
      
     - For element **`CustomerID`**: Enable the full-text search, specify **`CustomerName`** as associated text, and define a value help which will automatically be used for frontend validations in Fiori elements UIs.
  
-       ```ABAP
+       ```ABAP-CDS
        @Search.defaultSearchElement: true
        @ObjectModel.text.element: ['CustomerName']
        @Consumption.valueHelpDefinition: [{ entity : {name: '/DMO/I_Customer_StdVH', element: 'CustomerID' }, useForValidation: true }]
@@ -205,13 +205,13 @@ The enablement of OData streams will give end-users the option to upload and dow
     
     - For  element **`CurrencyCode`**: Define a value help which will automatically be used for validations in Fiori elements UIs.
 
-       ```ABAP
+       ```ABAP-CDS
        @Consumption.valueHelpDefinition: [{ entity: {name: 'I_CurrencyStdVH', element: 'Currency' }, useForValidation: true }]
        ```
      
     - For element **`OverallStatus`**: Specify **`OverallStatusText`** as associated text and define a value help which will automatically be used for frontend validations in Fiori elements UIs.
 
-       ```ABAP
+       ```ABAP-CDS
        @ObjectModel.text.element: ['OverallStatusText']
        @Consumption.valueHelpDefinition: [{ entity: {name: '/DMO/I_Overall_Status_VH', element: 'OverallStatus' }, useForValidation: true }]
        ```

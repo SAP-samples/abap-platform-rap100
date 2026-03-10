@@ -153,7 +153,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
    You can use the **ABAP Pretty Printer** (**Ctrl+F1**) to format your source code.
 
 
-   <pre lang="ABAP">  
+   ```ABAP  
    **************************************************************************
    * Instance-bound non-factory action:
    * Deduct the specified discount from the booking fee (BookingFee)
@@ -194,7 +194,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
      result = VALUE #( FOR travel IN travels_with_discount ( %tky   = travel-%tky
                                                                %param = travel ) ).
    ENDMETHOD.
-   </pre>
+   ```
 
    The result should look like this:
 
@@ -242,7 +242,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
    
    **Please note**: Some lines in the provided code snippet are commented out using **`//`** at the beginning. **DO NOT remove them**. You will uncomment these lines in the following exercise steps.
       
-   <pre lang="ABAP CDS">
+   ```ABAP-CDS
      @UI: {
          lineItem:       [ { position: 100, importance: #HIGH }                          
                            //,{ type: #FOR_ACTION, dataAction: 'copyTravel', label: 'Copy Travel' } 
@@ -256,7 +256,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
               ],
            textArrangement: #TEXT_ONLY
          }
-   </pre>
+   ```
 
    The result should look like this:
    
@@ -342,7 +342,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
    
    You can use the **ABAP Pretty Printer** (**Ctrl+F1**) to format your source code.
       
-   <pre lang="ABAP">
+   ```ABAP
    **************************************************************************
    * Instance-bound non-factory action with parameter `deductDiscount`:
    * Deduct the specified discount from the booking fee (BookingFee)
@@ -408,7 +408,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
       result = VALUE #( FOR travel IN travels_with_discount ( %tky   = travel-%tky
                                                               %param = travel ) ).
     ENDMETHOD.
-   </pre>
+   ```
    
    The result should look like this:
    
@@ -517,7 +517,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
    
    For that, replace the current method implementation with the code snippet provided below and replace all occurrences of the placeholder **`###`** with your group ID.   
    
-   <pre lang="ABAP">
+   ```ABAP
    **************************************************************************
    * Instance-bound factory action `copyTravel`:
    * Copy an existing travel instance
@@ -565,7 +565,7 @@ As *optional* exercises, you can additionally implement the two non-factory, ins
        " set the new BO instances
        mapped-travel   =  mapped_create-travel .
      ENDMETHOD.              
-   </pre>
+   ```
    
    Your source code should like this:
    
@@ -699,7 +699,7 @@ You are through with the definition of both actions. Go ahead with the implement
  
    For that, replace the current method implementation with the code snippet provided below and replace all occurrences of the placeholder **`###`** with your group ID. You can make use of the **F1 Help** for more information about the EML statements and other ABAP constructs.
    
-   <pre lang="ABAP">
+   ```ABAP
    *************************************************************************************
    * Instance-bound non-factory action: Set the overall travel status to 'A' (accepted)
    *************************************************************************************
@@ -724,7 +724,7 @@ You are through with the definition of both actions. Go ahead with the implement
        result = VALUE #( FOR travel IN travels ( %tky   = travel-%tky
                                                  %param = travel ) ).
      ENDMETHOD.
-   </pre>
+   ```
    
    Your source code should look like this:
    
@@ -740,7 +740,7 @@ You are through with the definition of both actions. Go ahead with the implement
    
    For that, replace the current method implementation with the code snippet provided below and replace all occurrences of the placeholder **`###`** with your group ID.
 
-   <pre lang="ABAP">   
+   ```ABAP   
    *************************************************************************************
    * Instance-bound non-factory action: Set the overall travel status to 'X' (rejected)
    *************************************************************************************
@@ -765,7 +765,7 @@ You are through with the definition of both actions. Go ahead with the implement
        result = VALUE #( FOR travel IN travels ( %tky   = travel-%tky
                                                  %param = travel ) ).
      ENDMETHOD.   
-   </pre>
+   ```
    
    Your source code should look like this:
    
