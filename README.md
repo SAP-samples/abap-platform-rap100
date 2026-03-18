@@ -52,22 +52,22 @@ This hands-on workshop is intended for developers, architects, and technical con
 
 > Participants should have an interest in exploring topics through guided exercises and should have the following knowledge: 
 > - Basic of [ABAP knowledge](https://pages.community.sap.com/topics/abap/abap-for-newbies)↗
-> - Basic knwoledge of [ABAP Development Tools for Eclipse (ADT)](https://help.sap.com/docs/ABAP_DEVELOPMENT_TOOLS_FOR_ECLIPSE?locale=en-US&state=PRODUCTION&version=dev)↗
-> - Basic knwoledge of [ABAP Core Data Services (CDS)](https://community.sap.com/t5/technology-blogs-by-sap/getting-started-with-abap-core-data-services-cds/ba-p/13284593)↗
+> - Basic knowledge of [ABAP Development Tools for Eclipse (ADT)](https://help.sap.com/docs/ABAP_DEVELOPMENT_TOOLS_FOR_ECLIPSE?locale=en-US&state=PRODUCTION&version=dev)↗
+> - Basic knowledge of [ABAP Core Data Services (CDS)](https://community.sap.com/t5/technology-blogs-by-sap/getting-started-with-abap-core-data-services-cds/ba-p/13284593)↗
 > - Basic understanding of [ABAP RESTful Application Programming Model (RAP]()↗
 >
 > To complete the practical exercises in this workshop, you need the latest version of the ABAP Development Tools for Eclipse (ADT) on your laptop or PC and the access to a suitable ABAP system - i.e. SAP BTP ABAP Environment, SAP S/4HANA Cloud Public Edition, or at least release 2022 of SAP S/4HANA Cloud Private Edition and SAP S/4HANA.
 > 
-> The [ABAP Flight Reference Scenario](https://github.com/SAP-samples/abap-platform-refscen-flight) must be imported into the relevant system - e.g. SAP BTP ABAP Environment Trial. 
+> The [ABAP Flight Reference Scenario](https://github.com/SAP-samples/abap-platform-refscen-flight)↗ must be imported into the relevant system - e.g. SAP BTP ABAP Environment Trial. 
 
 <details>
   <summary>Click to expand!</summary>
 
 The requirements to follow the exercises in this repository are:
-1. [Install the latest Eclipse platform and the latest ABAP Development Tools (ADT) plugin](https://developers.sap.com/tutorials/abap-install-adt.html)
-2. [Create an user on the SAP BTP ABAP Environment Trial](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html) (_Read exception below_)
-3. [Create an ABAP Cloud Project](https://developers.sap.com/tutorials/abap-environment-create-abap-cloud-project.html)
-4. [Adapt the Web Browser settings in your ADT installation](https://github.com/SAP-samples/abap-platform-rap-workshops/blob/main/requirements_rap_workshops.md#4-adapt-the-web-browser-settings-in-your-adt-installation)   
+1. [Install the latest Eclipse platform and the latest ABAP Development Tools (ADT) plugin](https://developers.sap.com/tutorials/abap-install-adt.html)↗
+2. [Create an user on the SAP BTP ABAP Environment Trial](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)↗ (_Read exception below_)
+3. [Create an ABAP Cloud Project](https://developers.sap.com/tutorials/abap-environment-create-abap-cloud-project.html)↗
+4. [Adapt the Web Browser settings in your ADT installation](https://github.com/SAP-samples/abap-platform-rap-workshops/blob/main/requirements_rap_workshops.md#4-adapt-the-web-browser-settings-in-your-adt-installation)↗   
 
 >> ⚠ **Exception regarding SAP-led events such as "ABAP Developer Day" and "SAP CodeJam"**:   
 >> → A dedicated ABAP system for the hands-on workshop participants will be provided.   
